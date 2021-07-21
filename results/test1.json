@@ -1,0 +1,30 @@
+{
+    "test": "test1.json",
+    "number of moves": 3,
+    "moves": [
+        {
+            "ID": 2,
+            "Room": "Dining Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 3,
+            "Room": "Kitchen",
+            "Objects collected": [
+                "Knife"
+            ]
+        },
+        {
+            "ID": 2,
+            "Room": "Dining Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 4,
+            "Room": "Sun Room",
+            "Objects collected": [
+                "Potted Plant"
+            ]
+        }
+    ]
+}

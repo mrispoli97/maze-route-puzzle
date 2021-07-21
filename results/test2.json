@@ -1,0 +1,57 @@
+{
+    "test": "test2.json",
+    "number of moves": 8,
+    "moves": [
+        {
+            "ID": 4,
+            "Room": "Sun Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 2,
+            "Room": "Dining Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 3,
+            "Room": "Kitchen",
+            "Objects collected": [
+                "Knife"
+            ]
+        },
+        {
+            "ID": 2,
+            "Room": "Dining Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 1,
+            "Room": "Hallway",
+            "Objects collected": null
+        },
+        {
+            "ID": 7,
+            "Room": "Living room",
+            "Objects collected": [
+                "Potted Plant"
+            ]
+        },
+        {
+            "ID": 1,
+            "Room": "Hallway",
+            "Objects collected": null
+        },
+        {
+            "ID": 2,
+            "Room": "Dining Room",
+            "Objects collected": null
+        },
+        {
+            "ID": 5,
+            "Room": "Bedroom",
+            "Objects collected": [
+                "Pillow"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,15 @@
+{
+  "start room ID": 4,
+  "objects": [
+    {
+      "name": "Knife"
+    },
+    {
+      "name": "Potted Plant"
+    },
+    {
+      "name": "Pillow"
+    }
+  ],
+  "map": "example2.json"
+}
