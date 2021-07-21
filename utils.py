@@ -31,7 +31,7 @@ def get_consecutive_pairs(values):
 
 def print_output(result):
     print("{:<4} {:<20} {:<100}".format('ID', 'Room', 'Objects collected'))
-    print("------------------------------------------")
+    print("-------------------------------------------")
     for item in result:
         id = item['ID']
         room = item['Room']
