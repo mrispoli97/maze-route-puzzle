@@ -39,8 +39,7 @@ if __name__ == '__main__':
     moves = maze.collect_objects(source=start, objects=objects, verbose=False)
     number_of_moves = len(moves) - 1
 
-    print(f"Total number of moves: {number_of_moves}")
-    pprint(moves)
+    utils.print_output(moves)
     utils.save_json(
         data={
             "test": cfg.TEST_NAME,

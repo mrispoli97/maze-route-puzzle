@@ -27,3 +27,20 @@ def get_consecutive_pairs(values):
     for first, second in zip(values, values[1:]):
         pairs.append((first, second))
     return pairs
+
+
+def print_output(result):
+    print("{:<4} {:<20} {:<10}".format('ID', 'Room', 'Objects collected'))
+    print("------------------------------------------")
+    for item in result:
+        id = item['ID']
+        room = item['Room']
+        objects_collected = item['Objects collected']
+        objects_collected_string = ""
+        if objects_collected:
+            for object_collected in objects_collected:
+                objects_collected_string += object_collected + ", "
+            objects_collected_string = objects_collected_string[:-2]
+        else:
+            objects_collected_string = 'None'
+        print("{:<4} {:<20} {:<100}".format(id, room, objects_collected_string))
